@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+  <head>
+    <title>MochaMap</title>
+    <meta name="description" content="Kelly Martin is a web developer based in Denver, CO.
+    When she's not coding, you can find her drinking coffee, reading, or
+    adventuring in Colorado's beautiful backwoods." />
+    <meta name="keywords" content="kelly martin, kellymartin, kellymartin.me, web developer, web developers denver" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="../../files/favicon.png" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../packages/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../packages/jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sarina|Arvo">
+  </head>
+
+  <body>
+    <div id="header">
+      <h2 class="font">MochaMap</h2>
+      <h5 class="font">Coffee shops: visited, favorited, and bucket-listed</h5>
+    </div>
+    <div class="container">
+      <input id="mapSearch" class="controls font" type="text" placeholder="Search for a coffee shop">
+      <div class="font" id="mochaMap"></div>
+    </div>
+
+    <script src="https://kellymartin.me/packages/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://kellymartin.me/packages/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://kellymartin.me/packages/jquery-ui/jquery-ui.js"></script>
+    <script src="scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA72row_iQg2XPb3OOa-2ecqGZHRnvhW30&callback=initMap&libraries=places"></script>
+
+  </body>
+
+</html>
